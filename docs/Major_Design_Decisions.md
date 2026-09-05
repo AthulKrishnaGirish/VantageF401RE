@@ -1,6 +1,6 @@
 # Major Design Decisions
 
-1. **MCU:** STM32F401RE / STM32F401RET6 as required.
+1. **MCU:** STM32F401RET6 (STM32F401RE family, LQFP-64)
 2. **Board architecture:** evaluation/development board rather than a minimal MCU breakout.
 3. **Layers:** exactly two copper layers.
 4. **Size:** remain comfortably below the 100 mm × 100 mm maximum rather than targeting the limit unnecessarily.
