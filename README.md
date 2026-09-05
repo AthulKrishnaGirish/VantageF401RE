@@ -12,12 +12,12 @@ The project aims to satisfy all mandatory competition requirements while improvi
 
 **Current stage:** Initial architecture and design planning
 
-The STM32F401RE/STM32F401RET6 has been selected as the main MCU. The system architecture, required interfaces, preliminary component selection and PCB placement/routing strategy have been established. Schematic implementation and electrical validation are the next development milestones.
+The STM32F401RET6 (STM32F401RE family, LQFP-64) has been selected as the main MCU. The system architecture, required interfaces, preliminary component selection and PCB placement/routing strategy have been established. Schematic implementation and electrical validation are the next development milestones.
 
 ## Planned Features
 
 ### Core
-- STM32F401RE / STM32F401RET6 MCU
+- STM32F401RET6 MCU (STM32F401RE family, LQFP-64)
 - 3.3 V regulated power supply
 - MCU power decoupling
 - Reset and boot configuration
@@ -52,7 +52,7 @@ The STM32F401RE/STM32F401RET6 has been selected as the main MCU. The system arch
 
 | Parameter | Requirement |
 |---|---|
-| MCU | STM32F401RE / STM32F401RET6 |
+| MCU | STM32F401RET6 |
 | PCB layers | Exactly 2 copper layers |
 | Maximum board size | 100 mm × 100 mm |
 | Design software | KiCad |
