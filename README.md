@@ -407,11 +407,11 @@ The repository contains the complete design and supporting documentation.
 VantageF401RE/
 │
 ├── bom/
-│   ├── VantageF401RE_Final_Component_List.xlsx
-│   └── README.md
+│   └── VantageF401RE_Final_Component_List.xlsx
 │
 ├── docs/
-│   └── Supporting project documentation
+│   ├── Major Decisions.md
+│   └── Initial Block Diagram.png
 │
 ├── gerbers/
 │   ├── VantageF401RE_Gerbers.zip
@@ -420,7 +420,8 @@ VantageF401RE/
 ├── kicad/
 │   ├── VantageF401RE.kicad_sch
 │   ├── VantageF401RE.kicad_pcb
-│   └── Supporting KiCad project files
+│   ├── VantageF401RE.kicad_pro
+│   └── README.md
 │
 ├── pdf/
 │   ├── VantageF401RE_Final_Design_Report.pdf
@@ -430,7 +431,6 @@ VantageF401RE/
 │   └── ERC / DRC and validation results
 │
 └── README.md
-```
 
 ---
 
