@@ -1,42 +1,58 @@
-# KiCad Design Files
+# Verification Results
 
-This folder contains the KiCad design files for the VantageF401RE project.
+This folder contains the final verification results for the **VantageF401RE** STM32F401RE-based evaluation and development board.
 
-The PCB is being developed as an independently designed two-layer STM32F401RET6 evaluation/development board.
+## Design Verification
 
-## Current Design Stage
+The completed schematic and PCB layout were verified using KiCad's electrical and design rule checking tools.
 
-The project is currently progressing from system architecture and component selection into detailed KiCad schematic development.
+### ERC — Electrical Rules Check
 
-The KiCad project will be developed through the following stages:
+The final schematic was checked using KiCad ERC.
 
-1. Schematic design
-2. Footprint assignment and verification
-3. ERC validation
-4. PCB placement
-5. Two-layer routing
-6. Ground-plane implementation
-7. DRC validation
-8. Final PCB optimization
+- **ERC Violations: 0**
+- **Errors: 0**
+- **Warnings: 0**
 
-## Planned Project Files
+This confirms that the final schematic passed the electrical rules check without reported violations.
 
-The completed KiCad project will contain:
+### DRC — Design Rules Check
 
-- `VantageF401RE.kicad_pro` — KiCad project configuration
-- `VantageF401RE.kicad_sch` — Complete schematic
-- `VantageF401RE.kicad_pcb` — Final two-layer PCB layout
+The final PCB layout was checked using KiCad DRC.
 
-## Final Design Outputs
+- **DRC Errors: 0**
+- **Known DRC Violations: 0**
+- **Intentional Exclusions: 4**
 
-The completed project will also include the PCB manufacturing and documentation outputs required for the final design, including:
+The intentional exclusions correspond to known USB-C connector mechanical hole-clearance checks and were reviewed as acceptable for the selected connector footprint.
 
-- Gerber files
-- Drill files
-- Schematic PDF
-- PCB layout PDF
-- PCB 3D render/images
-- Final BOM
-- ERC results
-- DRC results
-- Design documentation
+## Final Design Status
+
+The VantageF401RE schematic and PCB layout have been completed and verified.
+
+The final design includes:
+
+- STM32F401RET6 microcontroller
+- 2-layer PCB
+- USB-C power and USB 2.0 interface
+- 3.3 V regulated power supply
+- SWD programming and debugging interface
+- Reset and BOOT selection
+- UART interface
+- SPI interface
+- I²C interface
+- GPIO expansion
+- User button
+- User LED
+- Power LED
+- USB status LED
+- USB ESD protection
+- External 5 V input
+- Crystal oscillator
+- Test points
+- MCU and analog power decoupling
+- Ground planes
+
+The final KiCad schematic and PCB design files are available in the [`kicad/`](../kicad/) directory.
+
+Gerber and drill files are available in the [`gerbers/`](../gerbers/) directory.
