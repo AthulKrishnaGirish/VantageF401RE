@@ -2,7 +2,7 @@
 
 ### STM32F401RE Evaluation & Development Board
 
-**Mixed Traces PCB Design Competition — 2026**
+**Mixed Traces PCB Design Competition — 2026  —**
 **Submission by, Athul Krishna Girish**
 
 ---
