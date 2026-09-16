@@ -438,18 +438,18 @@ VantageF401RE/
 
 ### Folder Description
 
-**bom/**
+| [`bom/`](bom/) |
 Contains the final component list and BOM-related documentation.
 `VantageF401RE_Final_Component_List.xlsx` — provides the final component references, values, footprints, functions, and interface mapping.
 
-**docs/**
+| [`docs/`](docs/) |
 Contains supporting project documentation, design information, and technical documentation associated with the development of the board.
 
-**gerbers/**
+| [`gerbers/`](gerbers/) |
 Contains the final manufacturing output package.
 `VantageF401RE_Gerbers.zip` — includes the final copper, solder-mask, silkscreen, paste, board-outline, and drill outputs generated from KiCad.
 
-**kicad/**
+| [`kicad/`](kicad/) |
 Contains the primary editable KiCad design files, including:
 
 - Schematic
@@ -458,11 +458,11 @@ Contains the primary editable KiCad design files, including:
 
 These files represent the actual circuit and PCB implementation of VantageF401RE.
 
-**pdf/**
+| [`pdf/`](pdf/) |
 Contains the final technical design report prepared for the competition submission.
 `VantageF401RE_Final_Design_Report.pdf` — provides a consolidated description of the board architecture, design decisions, implementation, verification, and final outcome.
 
-**results/**
+| [`results/`](results/) |
 Contains design verification and validation outputs, including ERC/DRC-related results and other relevant design-check documentation.
 
 ---
