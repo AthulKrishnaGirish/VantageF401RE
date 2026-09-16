@@ -428,9 +428,11 @@ VantageF401RE/
 │   └── README.md
 │
 ├── results/
-│   └── ERC / DRC and validation results
+│   ├── ERC / DRC and validation results
+│   └── README.md
 │
 └── README.md
+```
 
 ---
 
