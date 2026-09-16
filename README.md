@@ -3,7 +3,7 @@
 ### STM32F401RE Evaluation & Development Board
 
 **Mixed Traces PCB Design Competition — 2026**
-**Mixed Signals — Electronics Association of MEC**
+**Submission by, Athul Krishna Girish**
 
 ---
 
