@@ -403,35 +403,34 @@ The final Gerber and drill files were generated from the completed PCB layout af
 
 The repository contains the complete design and supporting documentation.
 
+```text
 VantageF401RE/
 │
 ├── bom/
-│ ├── VantageF401RE_Final_Component_List.xlsx
-│ └── README.md
+│   ├── VantageF401RE_Final_Component_List.xlsx
+│   └── README.md
 │
 ├── docs/
-│ ├── Design and supporting documentation
-│ ├── Schematic documentation
-│ ├── PCB documentation
-│ └── Design decision / verification documents
+│   └── Supporting project documentation
 │
 ├── gerbers/
-│ ├── VantageF401RE_Gerbers.zip
-│ └── README.md
+│   ├── VantageF401RE_Gerbers.zip
+│   └── README.md
 │
 ├── kicad/
-│ ├── VantageF401RE.kicad_sch
-│ ├── VantageF401RE.kicad_pcb
-│ └── Supporting KiCad project files
+│   ├── VantageF401RE.kicad_sch
+│   ├── VantageF401RE.kicad_pcb
+│   └── Supporting KiCad project files
 │
 ├── pdf/
-│ ├── VantageF401RE_Final_Design_Report.pdf
-│ └── README.md
+│   ├── VantageF401RE_Final_Design_Report.pdf
+│   └── README.md
 │
 ├── results/
-│ └── ERC / DRC and validation results
+│   └── ERC / DRC and validation results
 │
 └── README.md
+```
 
 ---
 
